@@ -10,8 +10,8 @@ import pkg_resources
 from PyQt5 import QtCore, QtGui, QtWidgets
 
 # hide cmd window
-hide = win32gui.GetForegroundWindow()
-win32gui.ShowWindow(hide, win32con.SW_HIDE)
+#hide = win32gui.GetForegroundWindow()
+#win32gui.ShowWindow(hide, win32con.SW_HIDE)
 
 # Importing GUIs
 try:
